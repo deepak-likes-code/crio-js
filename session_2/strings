@@ -1,0 +1,17 @@
+
+function initials(firstName,lastName){
+
+let fullName= firstName.concat(" "+lastName)
+ let firstLength= firstName.length;
+ let lastLength= lastName.length;
+ let fullLength= fullName.length;
+
+console.log(fullName);
+console.log("FirstLength:"+firstLength) ;
+console.log("LastLength:"+lastLength) ;
+console.log("FullLength:"+fullLength) ;
+console.log("Initials:"+firstName[0]+lastName[0]);
+return ("Initials:"+firstName[0]+lastName[0])
+  
+}
+initials("Deepak","K")
